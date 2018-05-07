@@ -1,18 +1,18 @@
 # README
 
-##LeSuave app
+## LeSuave app
 
-* Ruby version
+### Ruby version
 
-- ruby 2.3.3
+* ruby 2.3.3
 
-* System dependencies
+### System dependencies
 
-sqlite3
-rails
-bundler.io
+* sqlite3
+* rails
+* bundler.io
 
-* Configuration
+### Configuration
 
 To get started, make sure you have ruby installed by running `ruby -v`
 
@@ -21,17 +21,9 @@ Install rails, if you haven't by running `gem install rails`
 Run `gem install bundler` this gem provides consistent enviroments for ruby, and saves you from dependancy hell
 Run `bundle install` to install the ruby gems specified in your Gemfile
 
-* Database creation
+### Deployment instructions
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-### Heroku
+#### Heroku
 
 We will be using Heroku to deploy our App
 
