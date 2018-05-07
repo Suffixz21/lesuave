@@ -1,12 +1,10 @@
 # README
 
-LeSuave app
-
-Things you may want to cover:
+##LeSuave app
 
 * Ruby version
 
-ruby 2.3.3
+- ruby 2.3.3
 
 * System dependencies
 
