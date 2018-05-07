@@ -1,6 +1,6 @@
 # README
 
-## LeSuave app
+### LeSuave app
 
 ### Ruby version
 
@@ -25,6 +25,6 @@ Run `bundle install` to install the ruby gems specified in your Gemfile
 
 #### Heroku
 
-We will be using Heroku to deploy our App
+We will be using [Heroku](https://www.heroku.com/) to deploy our App
 
 
