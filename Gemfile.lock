@@ -73,9 +73,9 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    commontator (4.11.1)
+    commontator (5.1.0)
       jquery-rails
-      rails (>= 3.1)
+      rails (>= 5.0)
     concurrent-ruby (1.0.5)
     concurrent-ruby (1.0.5-java)
     crass (1.0.4)
@@ -128,6 +128,8 @@ GEM
     nokogiri (1.8.2-x86-mingw32)
       mini_portile2 (~> 2.3.0)
     pg (1.0.0)
+    pg (1.0.0-x64-mingw32)
+    pg (1.0.0-x86-mingw32)
     public_suffix (3.0.2)
     puma (3.11.4)
     puma (3.11.4-java)
@@ -229,7 +231,7 @@ DEPENDENCIES
   capybara (>= 2.15, < 4.0)
   chromedriver-helper
   coffee-rails (~> 4.2)
-  commontator (~> 4.11, >= 4.11.1)
+  commontator (~> 5.1.0, >= 5.1.0)
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   pg
