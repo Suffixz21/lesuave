@@ -10,7 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_05_07_173639) do
+ActiveRecord::Schema.define(version: 2018_05_07_173530) do
+
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
 
   create_table "pictures", force: :cascade do |t|
     t.string "name"
@@ -21,10 +24,25 @@ ActiveRecord::Schema.define(version: 2018_05_07_173639) do
     t.index ["imageable_type", "imageable_id"], name: "index_pictures_on_imageable_type_and_imageable_id"
   end
 
-# Could not dump table "posts" because of following StandardError
-#   Unknown type 'title' for column 'string'
+  create_table "posts", force: :cascade do |t|
+    t.integer "like"
+    t.string "pictures_type"
+    t.bigint "pictures_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "title"
+    t.text "text"
+    t.index ["pictures_type", "pictures_id"], name: "index_posts_on_pictures_type_and_pictures_id"
+  end
 
-# Could not dump table "users" because of following StandardError
-#   Unknown type '' for column 'string'
+  create_table "users", force: :cascade do |t|
+    t.string "name"
+    t.string "username"
+    t.integer "age"
+    t.string "password"
+    t.string "email"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
 end
