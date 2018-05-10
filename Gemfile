@@ -64,3 +64,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Include Commonatator Gem
 gem 'commontator', '~> 5.1.0', '>= 5.1.0'
+
+# Use devise gem for login, and sign ups
+gem 'devise'
