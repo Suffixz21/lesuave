@@ -67,3 +67,6 @@ gem 'commontator', '~> 5.1.0', '>= 5.1.0'
 
 # Use devise gem for login, and sign ups
 gem 'devise'
+
+# Use activemerchant gem for purchases
+gem 'activemerchant'
