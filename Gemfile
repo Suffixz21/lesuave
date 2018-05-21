@@ -65,8 +65,11 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Include Commonatator Gem
 gem 'commontator', '~> 5.1.0', '>= 5.1.0'
 
-# Use devise gem for login, and sign ups
+# Use devise gem for Authentication
 gem 'devise'
+
+# Use cancan gem for user Authorization
+gem 'cancan'
 
 # Use activemerchant gem for purchases
 gem 'activemerchant'
