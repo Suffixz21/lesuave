@@ -76,3 +76,6 @@ gem 'activemerchant'
 
 # Use money-rails gem
 gem 'money-rails'
+
+# Use rspec
+gem 'rspec'
