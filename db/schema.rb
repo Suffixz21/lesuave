@@ -38,8 +38,8 @@ ActiveRecord::Schema.define(version: 2018_05_23_201924) do
   create_table "products", force: :cascade do |t|
     t.string "name"
     t.string "code"
-    t.integer "price_cents_cents", default: 0, null: false
-    t.string "price_cents_currency", default: "ZAR", null: false
+    t.integer "price_cents", default: 0, null: false
+    t.string "price_currency", default: "ZAR", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
