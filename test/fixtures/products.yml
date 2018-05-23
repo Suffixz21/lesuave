@@ -4,12 +4,8 @@ one:
   id: 1
   name: MyString
   code: MyString
-  price: 
-  currency: MyString
 
 two:
-  id: 1
+  id: 2
   name: MyString
   code: MyString
-  price: 
-  currency: MyString
