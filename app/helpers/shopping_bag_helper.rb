@@ -1,0 +1,2 @@
+module ShoppingBagHelper
+end

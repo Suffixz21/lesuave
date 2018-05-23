@@ -1,7 +1,9 @@
 
 <h1>Listing posts</h1>
  
-<%= link_to 'New Post', new_post_path %>
+ <%= if can? :create, @post %>
+  <%= link_to 'New Post', new_post_path %>
+ <% end %> 
 <table>
   <tr>
     <th>Title</th>

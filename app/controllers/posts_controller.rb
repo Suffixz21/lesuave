@@ -1,4 +1,5 @@
 class PostsController < ApplicationController
+    load_and_authorize_resource
     def index
         @posts = Post.all
     end
@@ -7,7 +8,6 @@ class PostsController < ApplicationController
     end
 
     def create
-        # render plain: params[:post].inspect
         @post =  Post.new(post_params)
         @post.save
         redirect_to @post

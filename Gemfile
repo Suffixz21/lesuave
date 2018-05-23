@@ -73,3 +73,6 @@ gem 'cancan'
 
 # Use activemerchant gem for purchases
 gem 'activemerchant'
+
+# Use money-rails gem
+gem 'money-rails'
