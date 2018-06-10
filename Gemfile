@@ -68,8 +68,9 @@ gem 'commontator', '~> 5.1.0', '>= 5.1.0'
 # Use devise gem for Authentication
 gem 'devise'
 
-# Use cancan gem for user Authorization
-gem 'cancan'
+# Swaping out cancan for cancancan
+# Use cancancan gem for user Authorization
+gem 'cancancan'
 
 # Use activemerchant gem for purchases
 gem 'activemerchant'
