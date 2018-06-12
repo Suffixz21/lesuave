@@ -28,3 +28,4 @@ public/assets
 config/master.key
 Procfile.local
 config/secrets.yml
+db/lesuave.dump
