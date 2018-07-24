@@ -1,3 +1,4 @@
+# User class used to manage application users
 class User < ApplicationRecord
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
