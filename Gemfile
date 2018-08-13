@@ -80,3 +80,6 @@ gem 'money-rails'
 
 # Use rspec
 gem 'rspec'
+
+# Use sprockets
+gem 'sprockets', '~> 3.7.2'
