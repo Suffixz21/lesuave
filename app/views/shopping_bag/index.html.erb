@@ -1,0 +1,30 @@
+<%
+=begin%>
+ 
+<h1>Your bag</h1>
+
+<div class="shopping_bag">
+  <table>
+    <tr>
+      <th>Title</th>
+      <th>Text</th>
+      <th></th>
+    </tr>
+  
+  <% @shoppingbag.each do |item| %>
+      <tr>
+          <td><%= item.name %></td>
+          <td><%= item.preview %></td>
+          <td><%= item.short_description %></td>
+          <td><%= link_to 'Show', post_path(item) %></td>
+      </tr>
+      <tr>
+        <td><%= item.quantity %></td>
+        <td><%= item.price %></td>
+      <tr/>
+  <% end %>
+  </table>
+  <button>Bag the bag</button>
+</div> 
+<%
+=end%>

@@ -9,7 +9,7 @@
 
 ### System dependencies
 
-* sqlite3
+* postgres
 * rails
 * bundler.io
 
