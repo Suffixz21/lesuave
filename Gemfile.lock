@@ -281,7 +281,7 @@ DEPENDENCIES
   chromedriver-helper
   coffee-rails (~> 4.2)
   commontator (~> 5.1.0, >= 5.1.0)
-  devise
+  devise (~> 4.0)
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   money-rails
