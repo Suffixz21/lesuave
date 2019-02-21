@@ -66,7 +66,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'commontator', '~> 5.1.0', '>= 5.1.0'
 
 # Use devise gem for Authentication
-gem 'devise'
+# make devise soft dependant
+gem 'devise', '~> 3.2'
 
 # Swaping out cancan for cancancan
 # Use cancancan gem for user Authorization
