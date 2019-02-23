@@ -1,6 +1,6 @@
 class Devise::RegistrationController < DeviseController
     # extend Devise::Models
-    before_filter :configure_permitted_parameters, :only => [:create]
+    before_action :configure_permitted_parameters, :only => [:create]
 
     def new
     end
