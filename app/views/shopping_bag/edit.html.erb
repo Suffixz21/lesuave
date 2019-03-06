@@ -1,0 +1,10 @@
+<%
+=begin%>
+ <%= simple_form_for @product do |prdct| %>
+  <%= prdct.name :name %>
+  <%= prdct.price :price %>
+  <%= prdct.quantity :quantity %>
+  <%= prdct.button :submit, 'Save', class: 'submit' %>
+ <% end %> 
+<%
+=end%>
