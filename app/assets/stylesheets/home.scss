@@ -3,11 +3,16 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .home {
-    color: darkgreen
+    color: darkgreen;
+    text-align: center;
 }
 
 .link {
     a {
-        text-decoration: none
+        text-decoration: none;
     }
+}
+
+.pull-right {
+    text-align: right;
 }

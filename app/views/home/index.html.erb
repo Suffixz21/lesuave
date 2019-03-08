@@ -1,9 +1,18 @@
-<div class="home-div">
-    <h1 class="home">Home</h1>
-    <h2 class="home-h2">Welcome to LeSuave</h2>
-    <h3 class="home-h3">Have class, have style, le suave</h3>
+<div class="nav-home">
+    <h1 class="home nav-bar">Home</h1>
+    <h2 class="home-welcome">Welcome to LeSuave</h2>
+    <h3 class="home-header">Have class, have style, le suave</h3>
     <div class="link">
         <%= link_to 'View Posts', controller: 'posts' %>
     </div>
     <br>
+    <div class="posts">
+        <% @posts.each do |post| %>
+            <tr>
+                <td><%= post.title %></td>
+                <td><%= post.text %></td>
+                <td><%= link_to 'Show', post_path(post) %></td>
+            </tr>
+        <% end %> 
+    </div>
 </div>
