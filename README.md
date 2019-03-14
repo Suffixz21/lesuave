@@ -12,6 +12,7 @@
 * postgres
 * rails
 * bundler.io
+* bulma.io
 
 ### Configuration
 
