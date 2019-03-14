@@ -52,7 +52,7 @@ end
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '>= 2.15', '< 4.0'
+  gem 'capybara', '~> 2.0', '< 4.0'
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
@@ -63,7 +63,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
 # Include Commonatator Gem
-gem 'commontator', '~> 5.1.0', '>= 5.1.0'
+gem 'commontator', '~> 5.1'
 
 # Use devise gem for Authentication
 # make devise soft dependant
@@ -90,3 +90,6 @@ gem "activestorage", ">= 5.2.1.1"
 
 # Use nokogiri
 gem  "nokogiri", '1.10.1'
+
+# Use bulma rails for styling
+gem "bulma-rails", "~> 0.0.4"
